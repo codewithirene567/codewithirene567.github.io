@@ -1,11 +1,11 @@
 # Site settings
 author: Irene Scott
-title: 
+title: My Software Engineering Journey with Flatiron School
 header-img: img/home-bg.png
 email: irenejinscott@gmail.com
 copyright_name: Irene Scott
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Trying my best everyday to get to my goals, no matter how hard
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  codewithirene567
