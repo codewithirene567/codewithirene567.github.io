@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "The Program that makes more "Cheese" happen"
-date:       2020-05-30 16:18:42 +0000
+date:       2020-05-30 12:18:42 -0400
 permalink:  the_program_that_makes_more_cheese_happen
 ---
 
 
-It is nearly the beginning of June and I have finally finished my CLI Project at Flatrion's Software Engineering Bootcamp. It's been a rough ride figuring out how to get this whole thing to run smoothly, but what I can say is I have confidently learned, then applied some valuable concepts along the way in terms of how a CLI application looks like.
+It is nearly the beginning of June and I have finally finished my CLI Project at Flatiron's Software Engineering Bootcamp. It's been a rough ride figuring out how to get this whole thing to run smoothly, but what I can say is I have confidently learned, then applied some valuable concepts along the way in terms of how a CLI application looks like.
 
-My CLI app is called Cheesy Laughs which is an app that people can use whenever they don’t feel happy and need a pick me up. It generates customizable jokes based on three predestined categories of jokes to choose from. One feature I particularlly like about this app is that it sort of has a personality of its own in that it is determined to give out the requested number of jokes no matter what the user tries to do. You can watch my [video](https://www.youtube.com/watch?v=tVnTLg6_WqY) to see it in action.
+My CLI app is called Cheesy Laughs which is an app that people can use whenever they don’t feel happy and need a pick me up. It generates customizable jokes based on three predestined categories of jokes to choose from. One feature I particularly like about this app is that it sort of has a personality of its own in that it is determined to give out the requested number of jokes no matter what the user tries to do. You can watch my [video](https://www.youtube.com/watch?v=tVnTLg6_WqY) to see it in action.
 
 Here are the concepts I mentioned earlier that I have learned and applied:
 
@@ -29,7 +29,7 @@ Here are the concepts I mentioned earlier that I have learned and applied:
 - require 'json'
 ```
 
-  Then I created an executible file in my bin folder which lets me run the program in the first place. Specifically in this project this file is going to require the environment file to get everything set up like so...
+  Then I created an executable file in my bin folder which lets me run the program in the first place. Specifically in this project this file is going to require the environment file to get everything set up like so...
 	 
 	 
 `require_relative '../environment'`
@@ -40,7 +40,7 @@ Here are the concepts I mentioned earlier that I have learned and applied:
 	 cli_instance = CLI.new
 	 cli_instance.start
 	 
- As shown above each of the classes are in the lib folder. I have the first class as my API class and its purpose is to make calls to the API which is a series of jokes from an internet page. Then it will turn the URL into an object, and use the JSON parse method to turn everything into a ruby hash set up to make everything more readable. This way I could pull what I wanted from the database easier. After refactoring, I've consoladated this class body into one method which passes in an argument about the type of joke the user will hear which will be defined in the CLI class.
+ As shown above each of the classes are in the lib folder. I have the first class as my API class and its purpose is to make calls to the API which is a series of jokes from an internet page. Then it will turn the URL into an object, and use the JSON parse method to turn everything into a ruby hash set up to make everything more readable. This way I could pull what I wanted from the database easier. After refactoring, I've consolidated this class body into one method which passes in an argument about the type of joke the user will hear which will be defined in the CLI class.
 
  My CLI class is next and this class's responsibility is to basically show how my application is going to run and use the method from the API class to give the "type" argument value. It shows the flow of what the user is going to see including a greeting message, logic of how it runs, and pulls the jokes from the Jokes class in order to set each joke instance to be used in the logic itself.
 
@@ -59,9 +59,9 @@ Another key concept I learned was how to refactor code and the "why" behind it. 
 
 There are three categories of jokes within this app. With that in mind in my API class, I originally wrote my code with three different methods to do the same process for each category. The problem with this code is it doesn't have to be written three times for it to work. To shrink the code, the first thing I did was recognize which lines of code are the same  in the three methods and copy and paste that into a new method after naming that method something general for all categories.
 
-Next I used string interpolation around the joke's type within each url because each one was exactly the same except that their joke type was different.
+Next I used string interpolation around the joke's type within each URL because each one was exactly the same except that their joke type was different.
 
-I turned these three urls from three different methods...
+I turned these three URLs from three different methods...
 
 ```
 url = "https://official-joke-api.appspot.com/jokes/programming/ten"
