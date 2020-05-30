@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "The Program that makes more "Cheese" happen"
+title:      "The Program that makes more Cheese happen"
 date:       2020-05-30 12:18:42 -0400
 permalink:  the_program_that_makes_more_cheese_happen
 ---
