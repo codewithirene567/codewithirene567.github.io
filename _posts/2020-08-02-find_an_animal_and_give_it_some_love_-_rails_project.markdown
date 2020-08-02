@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "Find an Animal and give It Some Love! - Rails Project"
-date:       2020-08-02 20:53:25 +0000
+date:       2020-08-02 16:53:26 -0400
 permalink:  find_an_animal_and_give_it_some_love_-_rails_project
 ---
 
-If I thought Sinatra was difficult to learn and use, then that makes the task of learning, then using Rails an ultra-challenge! Yes, it can be magical as it provides more abstraction for code and does automate a lot of the tediousness for the developer using it, but with all of that comes a bunch of new features. These new features can make it harder to solve software bugs because developers sometimes need to understand what things are running in the background. However as usual, I can't deny it, like any software project from scratch that I've done, making this project was stressful yet a whole lot of fun. My competence in coding has never been at such a high level through all the struggles in creating this project.
+If I thought Sinatra was difficult to learn and use, then that makes the task of learning, then using Rails an ultra-challenge! Yes, it can be magical as it provides more abstraction for code and does automate a lot of the tediousness for the developer using it, but with all of that comes a bunch of new features. These new features can make it harder to solve software bugs because developers sometimes need to understand what things are running in the background, let alone learn them which is a challenge in itself. However as usual, I can't deny it, like any software project from scratch that I've done, making this project was stressful yet a whole lot of fun. My competence in coding has never been at such a high level through all the struggles in creating this project.
 
 For this project, I called it Find Your Animal Today which is a Rails app that lets people either create their own animal and associate the animal with a reason they can come up with or it lets them add a reason why they like that animal to another animal someone else has already created within the database.
 
