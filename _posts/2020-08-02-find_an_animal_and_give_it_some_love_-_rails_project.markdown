@@ -33,7 +33,7 @@ class PlansController < ApplicationController
         redirect to '/login' 
       end
     end
-		```
+```
 
 **versus**
 
