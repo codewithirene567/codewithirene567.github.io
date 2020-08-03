@@ -33,7 +33,7 @@ class PlansController < ApplicationController
         redirect to '/login' 
       end
     end
-```
+		```
 
 **versus**
 
@@ -53,9 +53,11 @@ The line is creating all the routes automatically for the animal object through 
 
 At this point the code is running the "new" action in the Animals controller file, which looks like this.
 
-```def new
+```
+def new
         @animal = Animal.new
-end```
+end
+```
 
 So to summarize with the ```link_to``` format, the link is basically saying, when I am clicked, take me to the ```new_animal_path``` which represents a route that runs in the config/routes folder, through the resource route for animals. After that the resource route is found using the keyword "new" before animal in ```new_animal_path```, and run the action in the animals controller because ```animals#new``` is at the last part of the GET request route.
 
