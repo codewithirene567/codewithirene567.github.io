@@ -2464,7 +2464,7 @@ input, select, textarea {
 	 }
 
 	 #top{
-		 position: left;
+		 position: static;
 	 }
 		
 	 ul {
