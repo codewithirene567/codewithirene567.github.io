@@ -2467,6 +2467,10 @@ input, select, textarea {
 		 position: left;
 	 }
 		
+	 ul {
+		list-style-type: none;
+	  }
+	  
 	
 	
 	  
