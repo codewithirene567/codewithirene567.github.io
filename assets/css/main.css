@@ -2455,6 +2455,18 @@ input, select, textarea {
 		max-width: 960px;
 	} */
 
-	#profile{
-		position: static;
-	}
+	 #profile{
+		position: absolute;
+		left: 60%; top: -20%;
+		/* transform: translate(-50%, -50%); */
+		clip: rect(250px, 700px, 1090px, 70px);
+		/* top, right ,bottom left */
+	 }
+
+	 #top{
+		 position: left;
+	 }
+		
+	
+	
+	  
