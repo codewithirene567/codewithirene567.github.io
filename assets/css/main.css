@@ -2042,7 +2042,8 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		/* "changed z index for nav bar here" */
+		z-index: 1;
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
@@ -2444,17 +2445,6 @@ input, select, textarea {
 
 	}
 
-	/* .boxstyle1 {
-		width:150px;
-  		height:300px;
-  		object-fit:cover;	
-	} */
-
-	 /* #whole {
-		margin: 0 auto;
-		max-width: 960px;
-	} */
-
 	 #profile{
 		position: absolute;
 		left: 60%; top: -20%;
@@ -2470,6 +2460,10 @@ input, select, textarea {
 	 ul {
 		list-style-type: none;
 	  }
+
+	  /* select h1 headers in the #post-container {
+		  spacing between lines needs to be wider
+	  } */
 	  
 	
 	
