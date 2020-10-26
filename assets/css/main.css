@@ -2469,23 +2469,9 @@ input, select, textarea {
 		font-size: 11pt;
 	 }
 
-	 /* #bio { */
-		 /* right: 100px; */
-		 /* color: lightgrey;
-		 text-align: left;
-		 display: block;
-  margin-left: auto;
-  margin-right: auto; */
-
-	 /* } */
-
-
-/* 	
-	#content {
-		margin-left: auto;
-margin-right: auto;
-text-align: left;
-	} */
+	.tech {
+		font-family: "Arial Black", Gadget, sans-serif
+	}
 	
 	
 	  
