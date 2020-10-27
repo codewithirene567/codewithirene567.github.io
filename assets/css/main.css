@@ -2485,7 +2485,7 @@ input, select, textarea {
 
 	#bio {
 		color: white;
-		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/Florida.jpg") no-repeat center center fixed;  
+		background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/Florida.jpg") no-repeat center center fixed;  
 		background-color: #cccccc;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
