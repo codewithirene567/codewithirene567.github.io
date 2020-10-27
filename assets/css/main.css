@@ -2474,4 +2474,23 @@ input, select, textarea {
 	}
 	
 	
-	  
+	#contact {
+		background: url("images/Keys.jpg")    no-repeat center center fixed;  
+		background-color: #cccccc;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	  }
+
+	#bio {
+		color: white;
+		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/Florida.jpg") no-repeat center center fixed;  
+		background-color: #cccccc;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	  }
+
+	
