@@ -7,6 +7,11 @@ skillset which is costantly expanding.
 I am currently looking for job opportunities remote or non-remote around the globe. If you have any
 questions about my background or skillset please feel free to contact me!
 
+Link to my blog on Medium: https://medium.com/@softwarestuff345
+
+LinkedIn: https://www.linkedin.com/in/irene-scott-23219b1a6/
+
+GitHub: https://github.com/codewithirene567 
 
 
 
