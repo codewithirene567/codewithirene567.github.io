@@ -2493,4 +2493,7 @@ input, select, textarea {
 		background-size: cover;
 	  }
 
+	  .medium-widget-article__item{
+		  color: white;
+	  }
 	
