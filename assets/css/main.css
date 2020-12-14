@@ -2009,8 +2009,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: lightgrey;
-			color: #999;
+			background-color: rgba(211, 211, 211, 0.795);
+			color: grey;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
