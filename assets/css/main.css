@@ -2497,4 +2497,8 @@ input, select, textarea {
 		  color:white
 	  }
 	
+	  .centerImage{
+		  position:sticky;
+		  top: 0;
+	  }
 	
