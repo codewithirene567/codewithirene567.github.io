@@ -1634,11 +1634,9 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			/* width: 100%; */
 			margin-left: auto;
 			margin-right: auto;
-			width: 50%;
-			text-align:center;
+			width: 100%;
 		}
 
 		.image.featured {
