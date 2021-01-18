@@ -2497,10 +2497,4 @@ input, select, textarea {
 		  color:white
 	  }
 	
-	.centerImage
-		{
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			width: 50%;
-		}
+	
